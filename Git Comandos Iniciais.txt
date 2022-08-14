@@ -16,3 +16,15 @@ PARA ENVIAR PARA NUVEM:
 		git remote add origin url (ex:git remote add origin https://github.com/Edson-Heiji-Kato-Junior/projeto-1)
         CONFIGURAR BRANCH
 		  git push --set-upstream origin nome_branch (ex:  git push --set-upstream origin master (fazer login))
+COMO VERIFICAR TODAS AS VERSOES ENVIADAS:
+	git reflog
+
+
+CICLO PARA CRIAR UM NOVO COMMIT
+	git status
+	git add . (adiciona todos os arquivos alterados)
+	git commit -m "DESCRICAO DA ALTERAÇÃO/VERSAO"
+	git push (envia para nuvem)
+
+COMO RETORNAR A VERSAO ANTERIOR EM CASO DE ERROS:
+	git reset --hard id 
