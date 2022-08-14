@@ -1,0 +1,18 @@
+git bash here (botao direito do mouse na pasta que deseja inicializar)
+git init => inicializa o git
+git status => status
+git add "nome_arq" => add arquivo ao git
+git add .  => adiciona todos arquivos ao git
+git commit -m "Descricao da versao/alteracao" (comita as alteraçoes de versoes)
+
+PARA CONFIGURAR EMAIL E USUARIO GIT:
+	git config --global user.email "email conta git"
+	git config --global user.name "resposavel pela alteração"
+
+PARA ENVIAR PARA NUVEM:
+	git push
+	
+	CONFIGURACAO GIT PUSH:
+		git remote add origin url (ex:git remote add origin https://github.com/Edson-Heiji-Kato-Junior/projeto-1)
+        CONFIGURAR BRANCH
+		  git push --set-upstream origin nome_branch (ex:  git push --set-upstream origin master (fazer login))
